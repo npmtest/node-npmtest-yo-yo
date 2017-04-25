@@ -1,6 +1,6 @@
 # npmtest-yo-yo
 
-#### test coverage for  [yo-yo (v1.4.0)](https://github.com/maxogden/yo-yo#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-yo-yo.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-yo-yo) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-yo-yo.svg)](https://travis-ci.org/npmtest/node-npmtest-yo-yo)
+#### basic test coverage for  [yo-yo (v1.4.0)](https://github.com/maxogden/yo-yo#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-yo-yo.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-yo-yo) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-yo-yo.svg)](https://travis-ci.org/npmtest/node-npmtest-yo-yo)
 
 #### A tiny library for building modular UI components using DOM diffing and ES6 tagged template literals
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-yo-yo/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-yo-yo/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-yo-yo/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-yo-yo/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-yo-yo/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-yo-yo/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-yo-yo/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-yo-yo/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-yo-yo/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-yo-yo/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-yo-yo/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-yo-yo/build/coverage.html/index.html)
 
@@ -84,7 +84,8 @@
     "scripts": {
         "test": "wzrd test.js"
     },
-    "version": "1.4.0"
+    "version": "1.4.0",
+    "bin": {}
 }
 ```
 
